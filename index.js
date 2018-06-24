@@ -22,6 +22,6 @@ var dodger = document.getElementById('dodger')
           moveDodgerLeft()
   }
         if (e.which == 39) {
-          moveDogerRight()
+          moveDodgeRight()
         }
 })
