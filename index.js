@@ -9,7 +9,7 @@ var dodger = document.getElementById('dodger')
       dodger.style.left = `${left - 1}px`
   }
 }
-   function moveDodgeRight() {
+   function moveDodgerRight() {
     var RightNumbers = dodger.style.right.replace('px', '')
     var right = parseInt(rightNumbers, 10)
  
@@ -22,6 +22,6 @@ var dodger = document.getElementById('dodger')
           moveDodgerLeft()
   }
         if (e.which == 39) {
-          moveDodgeRight()
+          moveDodgerRight()
         }
 })
